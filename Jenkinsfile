@@ -10,8 +10,8 @@ pipeline {
             steps {
                 script {
                     // Use the specified Node version
-                    def nodeTool = tool name: "NodeJS ${NODE_VERSION}", type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
-                    env.PATH = "${nodeTool}/bin:${env.PATH}"
+                    // def nodeTool = tool name: "NodeJS ${NODE_VERSION}", type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
+                    // env.PATH = "${nodeTool}/bin:${env.PATH}"
 
                     // Install project dependencies
                     sh 'npm install'
