@@ -6,13 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout your source code from the repository
-                checkout scm
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
                 script {
