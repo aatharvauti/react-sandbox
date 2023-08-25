@@ -5,12 +5,6 @@ pipeline {
 
     stages {
 
-        #stage('Git'){
-         #   steps {
-          #      checkout scm
-           # }
-        #}
-
         stage('Install Dependencies') {
             steps {
                 script {
