@@ -5,11 +5,11 @@ pipeline {
 
     stages {
 
-        stage('Git'){
-            steps {
-                git 'https://github.com/aatharvauti/react-sandbox'
-            }
-        }
+        #stage('Git'){
+         #   steps {
+          #      checkout scm
+           # }
+        #}
 
         stage('Install Dependencies') {
             steps {
