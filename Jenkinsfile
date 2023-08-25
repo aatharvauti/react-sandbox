@@ -8,7 +8,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 script {
-                    // Install project dependencies
+                    // Install the project dependencies
                     sh 'npm install'
                     // Build your React app
                     sh 'npm run build'
